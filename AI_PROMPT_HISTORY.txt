@@ -1,0 +1,66 @@
+## tool : GPT
+gave summerise context to chat GPT
+prompt 1: different situation er jonno different colors dekhabo. colour gula choose korte hobe
+
+prompt 2: dummy data eki rokom structure thakbe. shekhan thekecolour wise frontend differentiate korbe.
+
+
+## tool 2: GEMINI
+prompt: const orderData = {
+  id: "ORD-20260925-001",
+
+  product: {
+    name: "Wireless Noise Cancelling Headphones",
+    image: "/headphones.png",
+    quantity: 1,
+    price: 129.99
+  },
+
+  status: "delayed",
+
+  timeline: [
+    {
+      title: "Order Placed",
+      completed: true,
+      date: "Sep 20, 2026"
+    },
+    {
+      title: "Processing",
+      completed: true,
+      date: "Sep 21, 2026"
+    },
+    {
+      title: "Shipped",
+      completed: true,
+      date: "Sep 22, 2026"
+    },
+    {
+      title: "Out for Delivery",
+      completed: false,
+      date: null
+    },
+    {
+      title: "Delivered",
+      completed: false,
+      date: null
+    }
+  ],
+
+  estimatedDelivery: {
+    date: "Sep 25, 2026",
+    time: "6:00 PM"
+  },
+
+  updatedDelivery: {
+    date: "Sep 29, 2026",
+    time: "8:00 PM"
+  },
+
+  deliveredAt: null,
+
+  support: {
+    available: true
+  }
+};-- give me some dummy data in this format with relevant and actual imageurls 
+
+prompt 2: give me all of them in an array of order data
