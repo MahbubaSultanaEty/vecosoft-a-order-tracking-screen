@@ -64,3 +64,35 @@ prompt: const orderData = {
 };-- give me some dummy data in this format with relevant and actual imageurls 
 
 prompt 2: give me all of them in an array of order data
+
+
+## Tool: CHAT GPT
+prompt 3: now design the order card according to the data format , include a progress bar as well. this is the oficial anatomy of heroui: import { ProgressBar, Label } from '@heroui/react'; 
+export default () => ( 
+  <ProgressBar value={60}> 
+    <Label>Loading</Label> 
+    <ProgressBar.Output /> 
+    <ProgressBar.Track> 
+      <ProgressBar.Fill /> 
+    </ProgressBar.Track> 
+  </ProgressBar> 
+);-- you will use these for the progress bar
+
+prompt 4: import { Card } from "@heroui/react"; 
+ 
+export default () => ( 
+  <Card> 
+    <Card.Header> 
+      <Card.Title /> 
+      <Card.Description /> 
+    </Card.Header> 
+    <Card.Content /> 
+    <Card.Footer /> 
+  </Card> 
+);-- this is the current card anatomy for heroui
+
+prompt 5: card data order.jsx file a ase in orders array. structure you know , so make the full component
+
+prompt 6: now make the container page with a mobile first responsive grid layout using the map function
+
+prompt 7: statusconfig is mismatched with the status of orders. fix the statuscofig spelling mismatch

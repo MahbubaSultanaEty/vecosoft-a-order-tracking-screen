@@ -1,4 +1,4 @@
-const orders = [
+export const orders = [
   {
     id: "ORD-20260925-001",
     product: {
@@ -194,7 +194,7 @@ const orders = [
     id: "ORD-20260923-078",
     product: {
       name: "Professional DSLR Camera Lens",
-      image: "https://images.unsplash.com/photo-1617005082133-5c0c415f396a?auto=format&fit=crop&w=600&q=80",
+      image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=600&q=80",
       quantity: 1,
       price: 850.00
     },
